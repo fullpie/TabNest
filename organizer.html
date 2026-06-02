@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title data-i18n="app_name">TabNest</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <header class="app-header">
+        <div>
+          <h1 data-i18n="app_name">TabNest</h1>
+          <p data-i18n="app_intro">Scan your open tabs, drag sites into custom groups, then organize them locally in Chrome.</p>
+        </div>
+        <button id="scan" type="button" data-i18n="scan_button" data-i18n-title="scan_button_help">Find Sites</button>
+      </header>
+
+      <section class="toolbar" aria-label="Options">
+        <label data-i18n-title="scan_threshold_help">
+          <span data-i18n="scan_threshold_label">Show sites with at least</span>
+          <input id="scan-threshold" type="number" min="2" max="999" value="3">
+          <span data-i18n="tabs_label">tabs</span>
+        </label>
+        <label data-i18n-title="close_duplicates_help">
+          <input id="close-duplicates" type="checkbox" checked>
+          <span data-i18n="close_duplicates_label">Close duplicate URLs</span>
+        </label>
+        <label data-i18n-title="split_large_groups_help">
+          <input id="split-large-groups" type="checkbox" checked>
+          <span data-i18n="split_large_groups_label">Split large groups</span>
+        </label>
+        <label data-i18n-title="large_group_size_help">
+          <span data-i18n="large_group_size_label">Max tabs per group</span>
+          <input id="large-group-size" type="number" min="10" max="200" value="50">
+        </label>
+        <label data-i18n-title="collapse_groups_help">
+          <input id="collapse-groups" type="checkbox" checked>
+          <span data-i18n="collapse_groups_label">Collapse groups after organizing</span>
+        </label>
+      </section>
+
+      <section class="workspace" aria-label="Group builder">
+        <section id="source-panel" class="panel drop-target" data-drop-zone="source">
+          <div class="section-head">
+            <div>
+              <h2 data-i18n="found_sites_title">Found Sites</h2>
+              <p data-i18n="found_sites_help">Drag sites into a group. Drop them back here to remove them from a group.</p>
+            </div>
+          </div>
+          <div id="site-list" class="site-list"></div>
+        </section>
+
+        <section class="panel groups-panel">
+          <div class="section-head">
+            <div>
+              <h2 data-i18n="custom_groups_title">Custom Groups</h2>
+              <p data-i18n="custom_groups_help">Create a group, name it, then drag one or more sites into it.</p>
+            </div>
+            <button id="add-group" type="button" data-i18n="add_group_button" data-i18n-title="add_group_button_help">Add Group</button>
+          </div>
+          <div id="group-list" class="group-list"></div>
+        </section>
+      </section>
+
+      <section class="actions">
+        <button id="preview" data-i18n="preview_button" data-i18n-title="preview_button_help">Preview Changes</button>
+        <button id="group" class="primary" data-i18n="group_button" data-i18n-title="group_button_help">Organize My Tabs</button>
+        <button id="undo" disabled data-i18n="undo_button" data-i18n-title="undo_button_help">Undo Last Run</button>
+      </section>
+
+      <section aria-live="polite">
+        <div id="status"></div>
+        <table>
+          <thead>
+            <tr>
+              <th data-i18n="table_group">Group</th>
+              <th data-i18n="table_sites">Sites</th>
+              <th data-i18n="table_tabs">Tabs</th>
+              <th data-i18n="table_duplicates">Duplicates</th>
+            </tr>
+          </thead>
+          <tbody id="plan"></tbody>
+        </table>
+      </section>
+    </main>
+    <script src="i18n.js"></script>
+    <script src="organizer.js"></script>
+  </body>
+</html>

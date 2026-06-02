@@ -1,0 +1,223 @@
+{
+  "app_name": {
+    "message": "TabNest"
+  },
+  "app_description": {
+    "message": "Find busy sites in your open tabs and turn them into Chrome tab groups."
+  },
+  "action_title": {
+    "message": "TabNest"
+  },
+  "popup_title": {
+    "message": "TabNest"
+  },
+  "open_organizer_button": {
+    "message": "Open Organizer"
+  },
+  "app_intro": {
+    "message": "Find the sites you have open, drag them into groups, then let Chrome tidy the tabs."
+  },
+  "scan_button": {
+    "message": "Find Sites"
+  },
+  "scan_button_help": {
+    "message": "Refresh the list of sites from your open tabs."
+  },
+  "scan_threshold_label": {
+    "message": "Show sites with"
+  },
+  "scan_threshold_help": {
+    "message": "Only show sites that have this many open tabs or more."
+  },
+  "tabs_label": {
+    "message": "or more tabs"
+  },
+  "close_duplicates_label": {
+    "message": "Remove duplicate pages"
+  },
+  "close_duplicates_help": {
+    "message": "Keep one copy of the same page and close the extra copies before organizing."
+  },
+  "split_large_groups_label": {
+    "message": "Break up huge groups"
+  },
+  "split_large_groups_help": {
+    "message": "If a group gets too large, split it into smaller groups automatically."
+  },
+  "large_group_size_label": {
+    "message": "Limit each group to"
+  },
+  "large_group_size_help": {
+    "message": "The most tabs to put in one group when splitting is on."
+  },
+  "collapse_groups_label": {
+    "message": "Fold groups when done"
+  },
+  "collapse_groups_help": {
+    "message": "Create the groups folded closed so the tab bar is cleaner."
+  },
+  "found_sites_title": {
+    "message": "Sites Found"
+  },
+  "found_sites_help": {
+    "message": "Drag a site into a group. Drag it back here to take it out."
+  },
+  "custom_groups_title": {
+    "message": "Groups You Want"
+  },
+  "custom_groups_help": {
+    "message": "Add a group, name it, then drag sites into it."
+  },
+  "add_group_button": {
+    "message": "Add Group"
+  },
+  "add_group_button_help": {
+    "message": "Create an empty group you can name and fill."
+  },
+  "preview_button": {
+    "message": "Preview Changes"
+  },
+  "preview_button_help": {
+    "message": "Check what will move or close before changing your tabs."
+  },
+  "group_button": {
+    "message": "Organize My Tabs"
+  },
+  "group_button_help": {
+    "message": "Create the Chrome tab groups you set up above."
+  },
+  "undo_button": {
+    "message": "Undo Last Run"
+  },
+  "undo_button_help": {
+    "message": "Ungroup tabs moved last time. Pages that were closed as duplicates cannot be reopened here."
+  },
+  "table_group": {
+    "message": "Group"
+  },
+  "table_sites": {
+    "message": "Sites"
+  },
+  "table_tabs": {
+    "message": "Tabs"
+  },
+  "table_duplicates": {
+    "message": "Duplicates"
+  },
+  "no_sites_found": {
+    "message": "No sites match this number yet."
+  },
+  "all_sites_assigned": {
+    "message": "All shown sites are already in a group."
+  },
+  "no_groups_yet": {
+    "message": "Add a group to start."
+  },
+  "drop_sites_here": {
+    "message": "Drop sites here"
+  },
+  "group_name_placeholder": {
+    "message": "Group name"
+  },
+  "remove_group_label": {
+    "message": "Remove this group"
+  },
+  "default_group_name": {
+    "message": "Group $NUMBER$",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "untitled_group": {
+    "message": "Untitled group"
+  },
+  "tab_count": {
+    "message": "$COUNT$ tabs",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "scan_found": {
+    "message": "Found $COUNT$ sites with $THRESHOLD$ or more tabs. Drag the ones you want into groups.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "threshold": {
+        "content": "$2"
+      }
+    }
+  },
+  "scan_failed": {
+    "message": "Could not scan tabs: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "preview_status": {
+    "message": "Preview: $GROUPS$ groups, $TABS$ tabs, $DUPLICATES$ duplicate tabs to close.",
+    "placeholders": {
+      "groups": {
+        "content": "$1"
+      },
+      "tabs": {
+        "content": "$2"
+      },
+      "duplicates": {
+        "content": "$3"
+      }
+    }
+  },
+  "preview_failed": {
+    "message": "Could not preview changes: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "done_status": {
+    "message": "Done: made $GROUPS$ groups, moved $TABS$ tabs, closed $DUPLICATES$ duplicates.",
+    "placeholders": {
+      "groups": {
+        "content": "$1"
+      },
+      "tabs": {
+        "content": "$2"
+      },
+      "duplicates": {
+        "content": "$3"
+      }
+    }
+  },
+  "grouping_failed": {
+    "message": "Could not organize tabs: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_status": {
+    "message": "Undid the last run for $COUNT$ tabs. Closed duplicate tabs cannot be reopened here.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_failed": {
+    "message": "Could not undo the last run: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  }
+}

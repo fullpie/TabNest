@@ -1,0 +1,223 @@
+{
+  "app_name": {
+    "message": "TabNest"
+  },
+  "app_description": {
+    "message": "Trova i siti pi\u00f9 presenti tra le schede aperte e crea gruppi di schede Chrome."
+  },
+  "action_title": {
+    "message": "TabNest"
+  },
+  "popup_title": {
+    "message": "TabNest"
+  },
+  "open_organizer_button": {
+    "message": "Apri organizzatore"
+  },
+  "app_intro": {
+    "message": "Trova i siti aperti, trascinali nei gruppi e lascia che Chrome riordini le schede."
+  },
+  "scan_button": {
+    "message": "Trova siti"
+  },
+  "scan_button_help": {
+    "message": "Aggiorna l\u2019elenco dei siti dalle schede aperte."
+  },
+  "scan_threshold_label": {
+    "message": "Mostra siti con"
+  },
+  "scan_threshold_help": {
+    "message": "Mostra solo i siti con almeno questo numero di schede aperte."
+  },
+  "tabs_label": {
+    "message": "o pi\u00f9 schede"
+  },
+  "close_duplicates_label": {
+    "message": "Chiudi pagine duplicate"
+  },
+  "close_duplicates_help": {
+    "message": "Tiene una copia della stessa pagina e chiude le copie extra prima di organizzare."
+  },
+  "split_large_groups_label": {
+    "message": "Dividi gruppi enormi"
+  },
+  "split_large_groups_help": {
+    "message": "Divide automaticamente i gruppi troppo grandi in gruppi pi\u00f9 piccoli."
+  },
+  "large_group_size_label": {
+    "message": "Ogni gruppo al massimo"
+  },
+  "large_group_size_help": {
+    "message": "Il numero massimo di schede in un gruppo quando la divisione \u00e8 attiva."
+  },
+  "collapse_groups_label": {
+    "message": "Comprimi i gruppi alla fine"
+  },
+  "collapse_groups_help": {
+    "message": "Crea i gruppi gi\u00e0 compressi per tenere pi\u00f9 pulita la barra delle schede."
+  },
+  "found_sites_title": {
+    "message": "Siti trovati"
+  },
+  "found_sites_help": {
+    "message": "Trascina un sito in un gruppo. Riportalo qui per toglierlo."
+  },
+  "custom_groups_title": {
+    "message": "Gruppi da creare"
+  },
+  "custom_groups_help": {
+    "message": "Aggiungi un gruppo, dagli un nome e trascina dentro i siti."
+  },
+  "add_group_button": {
+    "message": "Aggiungi gruppo"
+  },
+  "add_group_button_help": {
+    "message": "Crea un gruppo vuoto che puoi nominare e riempire."
+  },
+  "preview_button": {
+    "message": "Controlla modifiche"
+  },
+  "preview_button_help": {
+    "message": "Controlla cosa verr\u00e0 spostato o chiuso prima di cambiare le schede."
+  },
+  "group_button": {
+    "message": "Organizza schede"
+  },
+  "group_button_help": {
+    "message": "Crea i gruppi di schede Chrome impostati sopra."
+  },
+  "undo_button": {
+    "message": "Annulla ultimo giro"
+  },
+  "undo_button_help": {
+    "message": "Rimuove dai gruppi le schede spostate l\u2019ultima volta. Le pagine duplicate chiuse non possono essere riaperte qui."
+  },
+  "table_group": {
+    "message": "Gruppo"
+  },
+  "table_sites": {
+    "message": "Siti"
+  },
+  "table_tabs": {
+    "message": "Schede"
+  },
+  "table_duplicates": {
+    "message": "Duplicati"
+  },
+  "no_sites_found": {
+    "message": "Nessun sito corrisponde a questo numero."
+  },
+  "all_sites_assigned": {
+    "message": "Tutti i siti mostrati sono gi\u00e0 in un gruppo."
+  },
+  "no_groups_yet": {
+    "message": "Aggiungi un gruppo per iniziare."
+  },
+  "drop_sites_here": {
+    "message": "Trascina qui i siti"
+  },
+  "group_name_placeholder": {
+    "message": "Nome gruppo"
+  },
+  "remove_group_label": {
+    "message": "Rimuovi questo gruppo"
+  },
+  "default_group_name": {
+    "message": "Gruppo $NUMBER$",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "untitled_group": {
+    "message": "Gruppo senza nome"
+  },
+  "tab_count": {
+    "message": "$COUNT$ schede",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "scan_found": {
+    "message": "Trovati $COUNT$ siti con $THRESHOLD$ o pi\u00f9 schede. Trascina nei gruppi quelli che vuoi organizzare.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "threshold": {
+        "content": "$2"
+      }
+    }
+  },
+  "scan_failed": {
+    "message": "Impossibile scansionare le schede: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "preview_status": {
+    "message": "Anteprima: $GROUPS$ gruppi, $TABS$ schede, $DUPLICATES$ schede duplicate da chiudere.",
+    "placeholders": {
+      "groups": {
+        "content": "$1"
+      },
+      "tabs": {
+        "content": "$2"
+      },
+      "duplicates": {
+        "content": "$3"
+      }
+    }
+  },
+  "preview_failed": {
+    "message": "Impossibile controllare le modifiche: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "done_status": {
+    "message": "Fatto: creati $GROUPS$ gruppi, spostate $TABS$ schede, chiusi $DUPLICATES$ duplicati.",
+    "placeholders": {
+      "groups": {
+        "content": "$1"
+      },
+      "tabs": {
+        "content": "$2"
+      },
+      "duplicates": {
+        "content": "$3"
+      }
+    }
+  },
+  "grouping_failed": {
+    "message": "Impossibile organizzare le schede: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_status": {
+    "message": "Annullato l\u2019ultimo giro per $COUNT$ schede. Le pagine duplicate chiuse non possono essere riaperte qui.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_failed": {
+    "message": "Impossibile annullare l\u2019ultimo giro: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  }
+}

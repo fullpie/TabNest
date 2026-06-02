@@ -1,0 +1,223 @@
+{
+  "app_name": {
+    "message": "TabNest"
+  },
+  "app_description": {
+    "message": "Findet h\u00e4ufig ge\u00f6ffnete Websites in deinen Tabs und erstellt Chrome-Tabgruppen."
+  },
+  "action_title": {
+    "message": "TabNest"
+  },
+  "popup_title": {
+    "message": "TabNest"
+  },
+  "open_organizer_button": {
+    "message": "Organizer \u00f6ffnen"
+  },
+  "app_intro": {
+    "message": "Finde deine ge\u00f6ffneten Websites, ziehe sie in Gruppen und lass Chrome die Tabs aufr\u00e4umen."
+  },
+  "scan_button": {
+    "message": "Websites finden"
+  },
+  "scan_button_help": {
+    "message": "Aktualisiert die Website-Liste aus deinen offenen Tabs."
+  },
+  "scan_threshold_label": {
+    "message": "Websites anzeigen mit"
+  },
+  "scan_threshold_help": {
+    "message": "Zeigt nur Websites mit mindestens so vielen offenen Tabs."
+  },
+  "tabs_label": {
+    "message": "oder mehr Tabs"
+  },
+  "close_duplicates_label": {
+    "message": "Doppelte Seiten schlie\u00dfen"
+  },
+  "close_duplicates_help": {
+    "message": "Beh\u00e4lt eine Kopie derselben Seite und schlie\u00dft zus\u00e4tzliche Duplikate vor dem Sortieren."
+  },
+  "split_large_groups_label": {
+    "message": "Riesige Gruppen teilen"
+  },
+  "split_large_groups_help": {
+    "message": "Teilt sehr gro\u00dfe Gruppen automatisch in kleinere Gruppen."
+  },
+  "large_group_size_label": {
+    "message": "Pro Gruppe h\u00f6chstens"
+  },
+  "large_group_size_help": {
+    "message": "Die maximale Anzahl Tabs pro Gruppe, wenn Teilen aktiviert ist."
+  },
+  "collapse_groups_label": {
+    "message": "Gruppen danach einklappen"
+  },
+  "collapse_groups_help": {
+    "message": "Erstellt Gruppen eingeklappt, damit die Tableiste \u00fcbersichtlich bleibt."
+  },
+  "found_sites_title": {
+    "message": "Gefundene Websites"
+  },
+  "found_sites_help": {
+    "message": "Ziehe eine Website in eine Gruppe. Ziehe sie hierher zur\u00fcck, um sie zu entfernen."
+  },
+  "custom_groups_title": {
+    "message": "Gew\u00fcnschte Gruppen"
+  },
+  "custom_groups_help": {
+    "message": "Gruppe hinzuf\u00fcgen, benennen und Websites hineinziehen."
+  },
+  "add_group_button": {
+    "message": "Gruppe hinzuf\u00fcgen"
+  },
+  "add_group_button_help": {
+    "message": "Erstellt eine leere Gruppe, die du benennen und f\u00fcllen kannst."
+  },
+  "preview_button": {
+    "message": "\u00c4nderungen ansehen"
+  },
+  "preview_button_help": {
+    "message": "Pr\u00fcft vorab, was verschoben oder geschlossen wird."
+  },
+  "group_button": {
+    "message": "Tabs organisieren"
+  },
+  "group_button_help": {
+    "message": "Erstellt die oben festgelegten Chrome-Tabgruppen."
+  },
+  "undo_button": {
+    "message": "Letzten Lauf r\u00fcckg\u00e4ngig machen"
+  },
+  "undo_button_help": {
+    "message": "Hebt die letzte Gruppierung auf. Geschlossene Duplikate k\u00f6nnen hier nicht wiederhergestellt werden."
+  },
+  "table_group": {
+    "message": "Gruppe"
+  },
+  "table_sites": {
+    "message": "Websites"
+  },
+  "table_tabs": {
+    "message": "Tabs"
+  },
+  "table_duplicates": {
+    "message": "Duplikate"
+  },
+  "no_sites_found": {
+    "message": "Keine Websites passen zu dieser Anzahl."
+  },
+  "all_sites_assigned": {
+    "message": "Alle angezeigten Websites sind bereits in Gruppen."
+  },
+  "no_groups_yet": {
+    "message": "F\u00fcge zuerst eine Gruppe hinzu."
+  },
+  "drop_sites_here": {
+    "message": "Websites hier ablegen"
+  },
+  "group_name_placeholder": {
+    "message": "Gruppenname"
+  },
+  "remove_group_label": {
+    "message": "Diese Gruppe entfernen"
+  },
+  "default_group_name": {
+    "message": "Gruppe $NUMBER$",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "untitled_group": {
+    "message": "Unbenannte Gruppe"
+  },
+  "tab_count": {
+    "message": "$COUNT$ Tabs",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "scan_found": {
+    "message": "$COUNT$ Websites mit mindestens $THRESHOLD$ Tabs gefunden. Ziehe die gew\u00fcnschten Websites in Gruppen.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "threshold": {
+        "content": "$2"
+      }
+    }
+  },
+  "scan_failed": {
+    "message": "Tabs konnten nicht gescannt werden: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "preview_status": {
+    "message": "Vorschau: $GROUPS$ Gruppen, $TABS$ Tabs, $DUPLICATES$ doppelte Tabs werden geschlossen.",
+    "placeholders": {
+      "groups": {
+        "content": "$1"
+      },
+      "tabs": {
+        "content": "$2"
+      },
+      "duplicates": {
+        "content": "$3"
+      }
+    }
+  },
+  "preview_failed": {
+    "message": "\u00c4nderungen konnten nicht gepr\u00fcft werden: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "done_status": {
+    "message": "Fertig: $GROUPS$ Gruppen erstellt, $TABS$ Tabs verschoben, $DUPLICATES$ Duplikate geschlossen.",
+    "placeholders": {
+      "groups": {
+        "content": "$1"
+      },
+      "tabs": {
+        "content": "$2"
+      },
+      "duplicates": {
+        "content": "$3"
+      }
+    }
+  },
+  "grouping_failed": {
+    "message": "Tabs konnten nicht organisiert werden: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_status": {
+    "message": "Letzter Lauf f\u00fcr $COUNT$ Tabs r\u00fcckg\u00e4ngig gemacht. Geschlossene Duplikate k\u00f6nnen hier nicht wiederhergestellt werden.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_failed": {
+    "message": "Letzter Lauf konnte nicht r\u00fcckg\u00e4ngig gemacht werden: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  }
+}

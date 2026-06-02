@@ -1,0 +1,223 @@
+{
+  "app_name": {
+    "message": "TabNest"
+  },
+  "app_description": {
+    "message": "\u627e\u51fa\u958b\u555f\u5206\u9801\u88e1\u6578\u91cf\u591a\u7684\u7db2\u7ad9\uff0c\u6574\u7406\u6210 Chrome \u5206\u9801\u7fa4\u7d44\u3002"
+  },
+  "action_title": {
+    "message": "TabNest"
+  },
+  "popup_title": {
+    "message": "TabNest"
+  },
+  "open_organizer_button": {
+    "message": "\u958b\u555f\u6574\u7406\u5668"
+  },
+  "app_intro": {
+    "message": "\u627e\u51fa\u4f60\u958b\u8457\u7684\u7db2\u7ad9\uff0c\u62d6\u9032\u60f3\u8981\u7684\u7fa4\u7d44\uff0c\u518d\u8b93 Chrome \u5e6b\u4f60\u6574\u7406\u5206\u9801\u3002"
+  },
+  "scan_button": {
+    "message": "\u958b\u59cb\u6383\u63cf"
+  },
+  "scan_button_help": {
+    "message": "\u91cd\u65b0\u6574\u7406\u76ee\u524d\u958b\u555f\u5206\u9801\u88e1\u7684\u7db2\u7ad9\u6e05\u55ae\u3002"
+  },
+  "scan_threshold_label": {
+    "message": "\u986f\u793a\u6709"
+  },
+  "scan_threshold_help": {
+    "message": "\u53ea\u986f\u793a\u958b\u555f\u5206\u9801\u6578\u9054\u5230\u9019\u500b\u6578\u91cf\u7684\u7db2\u7ad9\u3002"
+  },
+  "tabs_label": {
+    "message": "\u500b\u4ee5\u4e0a\u5206\u9801\u7684\u7db2\u7ad9"
+  },
+  "close_duplicates_label": {
+    "message": "\u95dc\u6389\u91cd\u8907\u9801\u9762"
+  },
+  "close_duplicates_help": {
+    "message": "\u76f8\u540c\u9801\u9762\u53ea\u4fdd\u7559\u4e00\u500b\uff0c\u6574\u7406\u524d\u5148\u95dc\u6389\u591a\u51fa\u4f86\u7684\u91cd\u8907\u5206\u9801\u3002"
+  },
+  "split_large_groups_label": {
+    "message": "\u592a\u591a\u6642\u81ea\u52d5\u62c6\u7d44"
+  },
+  "split_large_groups_help": {
+    "message": "\u5982\u679c\u67d0\u500b\u7fa4\u7d44\u5206\u9801\u592a\u591a\uff0c\u6703\u81ea\u52d5\u62c6\u6210\u5e7e\u500b\u8f03\u5c0f\u7684\u7fa4\u7d44\u3002"
+  },
+  "large_group_size_label": {
+    "message": "\u6bcf\u7d44\u6700\u591a"
+  },
+  "large_group_size_help": {
+    "message": "\u958b\u555f\u81ea\u52d5\u62c6\u7d44\u6642\uff0c\u6bcf\u500b\u7fa4\u7d44\u6700\u591a\u653e\u5e7e\u500b\u5206\u9801\u3002"
+  },
+  "collapse_groups_label": {
+    "message": "\u6574\u7406\u5b8c\u5148\u6536\u5408"
+  },
+  "collapse_groups_help": {
+    "message": "\u5efa\u7acb\u7fa4\u7d44\u5f8c\u5148\u6536\u5408\u8d77\u4f86\uff0c\u8b93\u5206\u9801\u5217\u6bd4\u8f03\u4e7e\u6de8\u3002"
+  },
+  "found_sites_title": {
+    "message": "\u6383\u63cf\u5230\u7684\u7db2\u7ad9"
+  },
+  "found_sites_help": {
+    "message": "\u628a\u7db2\u7ad9\u62d6\u5230\u53f3\u908a\u7fa4\u7d44\uff1b\u62d6\u56de\u9019\u88e1\u5c31\u6703\u79fb\u51fa\u7fa4\u7d44\u3002"
+  },
+  "custom_groups_title": {
+    "message": "\u60f3\u5efa\u7acb\u7684\u7fa4\u7d44"
+  },
+  "custom_groups_help": {
+    "message": "\u65b0\u589e\u7fa4\u7d44\u3001\u547d\u540d\uff0c\u7136\u5f8c\u628a\u7db2\u7ad9\u62d6\u9032\u53bb\u3002"
+  },
+  "add_group_button": {
+    "message": "\u65b0\u589e\u7fa4\u7d44"
+  },
+  "add_group_button_help": {
+    "message": "\u65b0\u589e\u4e00\u500b\u7a7a\u7fa4\u7d44\uff0c\u8b93\u4f60\u547d\u540d\u4e26\u653e\u5165\u7db2\u7ad9\u3002"
+  },
+  "preview_button": {
+    "message": "\u5148\u770b\u7d50\u679c"
+  },
+  "preview_button_help": {
+    "message": "\u6574\u7406\u524d\u5148\u78ba\u8a8d\u6703\u79fb\u52d5\u54ea\u4e9b\u5206\u9801\u3001\u95dc\u6389\u54ea\u4e9b\u91cd\u8907\u9801\u9762\u3002"
+  },
+  "group_button": {
+    "message": "\u958b\u59cb\u6574\u7406"
+  },
+  "group_button_help": {
+    "message": "\u4f9d\u7167\u4e0a\u9762\u7684\u8a2d\u5b9a\u5efa\u7acb Chrome \u5206\u9801\u7fa4\u7d44\u3002"
+  },
+  "undo_button": {
+    "message": "\u5fa9\u539f\u4e0a\u6b21\u6574\u7406"
+  },
+  "undo_button_help": {
+    "message": "\u53d6\u6d88\u4e0a\u6b21\u6574\u7406\u5efa\u7acb\u7684\u7fa4\u7d44\uff1b\u5df2\u95dc\u9589\u7684\u91cd\u8907\u5206\u9801\u7121\u6cd5\u5728\u9019\u88e1\u5fa9\u539f\u3002"
+  },
+  "table_group": {
+    "message": "\u7fa4\u7d44"
+  },
+  "table_sites": {
+    "message": "\u7db2\u7ad9"
+  },
+  "table_tabs": {
+    "message": "\u5206\u9801"
+  },
+  "table_duplicates": {
+    "message": "\u91cd\u8907\u9801\u9762"
+  },
+  "no_sites_found": {
+    "message": "\u76ee\u524d\u6c92\u6709\u7b26\u5408\u9019\u500b\u6578\u91cf\u7684\u7db2\u7ad9\u3002"
+  },
+  "all_sites_assigned": {
+    "message": "\u986f\u793a\u7684\u7db2\u7ad9\u90fd\u5df2\u7d93\u653e\u9032\u7fa4\u7d44\u3002"
+  },
+  "no_groups_yet": {
+    "message": "\u5148\u65b0\u589e\u4e00\u500b\u7fa4\u7d44\u3002"
+  },
+  "drop_sites_here": {
+    "message": "\u628a\u7db2\u7ad9\u62d6\u5230\u9019\u88e1"
+  },
+  "group_name_placeholder": {
+    "message": "\u7fa4\u7d44\u540d\u7a31"
+  },
+  "remove_group_label": {
+    "message": "\u79fb\u9664\u9019\u500b\u7fa4\u7d44"
+  },
+  "default_group_name": {
+    "message": "\u7fa4\u7d44 $NUMBER$",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "untitled_group": {
+    "message": "\u672a\u547d\u540d\u7fa4\u7d44"
+  },
+  "tab_count": {
+    "message": "$COUNT$ \u500b\u5206\u9801",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "scan_found": {
+    "message": "\u627e\u5230 $COUNT$ \u500b\u6709 $THRESHOLD$ \u500b\u4ee5\u4e0a\u5206\u9801\u7684\u7db2\u7ad9\u3002\u628a\u60f3\u6574\u7406\u7684\u7db2\u7ad9\u62d6\u9032\u7fa4\u7d44\u3002",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "threshold": {
+        "content": "$2"
+      }
+    }
+  },
+  "scan_failed": {
+    "message": "\u7121\u6cd5\u6383\u63cf\u5206\u9801\uff1a$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "preview_status": {
+    "message": "\u9810\u89bd\uff1a$GROUPS$ \u500b\u7fa4\u7d44\u3001$TABS$ \u500b\u5206\u9801\uff0c\u6703\u95dc\u6389 $DUPLICATES$ \u500b\u91cd\u8907\u5206\u9801\u3002",
+    "placeholders": {
+      "groups": {
+        "content": "$1"
+      },
+      "tabs": {
+        "content": "$2"
+      },
+      "duplicates": {
+        "content": "$3"
+      }
+    }
+  },
+  "preview_failed": {
+    "message": "\u7121\u6cd5\u9810\u89bd\uff1a$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "done_status": {
+    "message": "\u5b8c\u6210\uff1a\u5efa\u7acb $GROUPS$ \u500b\u7fa4\u7d44\u3001\u79fb\u52d5 $TABS$ \u500b\u5206\u9801\u3001\u95dc\u6389 $DUPLICATES$ \u500b\u91cd\u8907\u5206\u9801\u3002",
+    "placeholders": {
+      "groups": {
+        "content": "$1"
+      },
+      "tabs": {
+        "content": "$2"
+      },
+      "duplicates": {
+        "content": "$3"
+      }
+    }
+  },
+  "grouping_failed": {
+    "message": "\u7121\u6cd5\u6574\u7406\u5206\u9801\uff1a$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_status": {
+    "message": "\u5df2\u5fa9\u539f\u4e0a\u6b21\u6574\u7406\u7684 $COUNT$ \u500b\u5206\u9801\u3002\u5df2\u95dc\u9589\u7684\u91cd\u8907\u5206\u9801\u7121\u6cd5\u5728\u9019\u88e1\u5fa9\u539f\u3002",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo_failed": {
+    "message": "\u7121\u6cd5\u5fa9\u539f\u4e0a\u6b21\u6574\u7406\uff1a$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  }
+}
