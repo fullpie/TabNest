@@ -39,16 +39,16 @@
     "message": "Beh\u00e4lt eine Kopie derselben Seite und schlie\u00dft zus\u00e4tzliche Duplikate vor dem Sortieren."
   },
   "split_large_groups_label": {
-    "message": "Riesige Gruppen teilen"
+    "message": "Gro\u00dfe Gruppen beim Organisieren teilen"
   },
   "split_large_groups_help": {
-    "message": "Teilt sehr gro\u00dfe Gruppen automatisch in kleinere Gruppen."
+    "message": "Der Drag-and-drop-Bereich zeigt deine Einrichtung weiterhin als eine Gruppe. \u00c4nderungen ansehen und Tabs organisieren teilen Gruppen \u00fcber dem Limit in mehrere Chrome-Gruppen."
   },
   "large_group_size_label": {
     "message": "Pro Gruppe h\u00f6chstens"
   },
   "large_group_size_help": {
-    "message": "Die maximale Anzahl Tabs pro Gruppe, wenn Teilen aktiviert ist."
+    "message": "Die maximale Anzahl Tabs pro Chrome-Gruppe, wenn Teilen aktiviert ist."
   },
   "collapse_groups_label": {
     "message": "Gruppen danach einklappen"
@@ -231,6 +231,20 @@
     "placeholders": {
       "count": {
         "content": "$1"
+      }
+    }
+  },
+  "auto_groups_split_status": {
+    "message": "$COUNT$ Gruppen automatisch erstellt. $LARGE$ gro\u00dfe Website-Gruppen werden in der Vorschau oder beim Organisieren geteilt, mit h\u00f6chstens $LIMIT$ Tabs pro Gruppe.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "large": {
+        "content": "$2"
+      },
+      "limit": {
+        "content": "$3"
       }
     }
   }

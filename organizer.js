@@ -263,7 +263,15 @@ function createAutoGroups() {
   nextGroupNumber = groups.length + 1;
   clearPreview();
   renderAll();
-  setStatus(t("auto_groups_status", String(groups.length)));
+  const options = getOptions();
+  const largeSiteCount = options.splitLargeGroups
+    ? scannedSites.filter((site) => site.count > options.largeGroupSize).length
+    : 0;
+  if (largeSiteCount > 0) {
+    setStatus(t("auto_groups_split_status", [String(groups.length), String(largeSiteCount), String(options.largeGroupSize)]));
+  } else {
+    setStatus(t("auto_groups_status", String(groups.length)));
+  }
 }
 
 function removeSiteFromGroups(siteKey) {

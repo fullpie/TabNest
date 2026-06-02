@@ -39,16 +39,16 @@
     "message": "Tiene una copia della stessa pagina e chiude le copie extra prima di organizzare."
   },
   "split_large_groups_label": {
-    "message": "Dividi gruppi enormi"
+    "message": "Dividi i gruppi grandi durante l\u2019organizzazione"
   },
   "split_large_groups_help": {
-    "message": "Divide automaticamente i gruppi troppo grandi in gruppi pi\u00f9 piccoli."
+    "message": "L\u2019area di trascinamento mostra ancora la configurazione come un solo gruppo. Controlla modifiche e Organizza schede divideranno i gruppi oltre il limite in pi\u00f9 gruppi Chrome."
   },
   "large_group_size_label": {
     "message": "Ogni gruppo al massimo"
   },
   "large_group_size_help": {
-    "message": "Il numero massimo di schede in un gruppo quando la divisione \u00e8 attiva."
+    "message": "Il numero massimo di schede in un gruppo Chrome quando la divisione \u00e8 attiva."
   },
   "collapse_groups_label": {
     "message": "Comprimi i gruppi alla fine"
@@ -231,6 +231,20 @@
     "placeholders": {
       "count": {
         "content": "$1"
+      }
+    }
+  },
+  "auto_groups_split_status": {
+    "message": "Creati automaticamente $COUNT$ gruppi. $LARGE$ gruppi di siti grandi verranno divisi in anteprima o durante l\u2019organizzazione, fino a $LIMIT$ schede ciascuno.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "large": {
+        "content": "$2"
+      },
+      "limit": {
+        "content": "$3"
       }
     }
   }

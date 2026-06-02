@@ -39,16 +39,16 @@
     "message": "Keep one copy of the same page and close the extra copies before organizing."
   },
   "split_large_groups_label": {
-    "message": "Break up huge groups"
+    "message": "Split big groups when organizing"
   },
   "split_large_groups_help": {
-    "message": "If a group gets too large, split it into smaller groups automatically."
+    "message": "The drag area still shows your setup as one group. Preview Changes and Organize My Tabs will split any group that is over the limit."
   },
   "large_group_size_label": {
     "message": "Limit each group to"
   },
   "large_group_size_help": {
-    "message": "The most tabs to put in one group when splitting is on."
+    "message": "The most tabs to put in one Chrome group when splitting is on."
   },
   "collapse_groups_label": {
     "message": "Fold groups when done"
@@ -231,6 +231,20 @@
     "placeholders": {
       "count": {
         "content": "$1"
+      }
+    }
+  },
+  "auto_groups_split_status": {
+    "message": "Built $COUNT$ groups automatically. $LARGE$ large site groups will be split during preview or organizing, up to $LIMIT$ tabs each.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "large": {
+        "content": "$2"
+      },
+      "limit": {
+        "content": "$3"
       }
     }
   }

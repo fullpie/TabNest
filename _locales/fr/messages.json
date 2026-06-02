@@ -39,16 +39,16 @@
     "message": "Garde une copie d\u2019une m\u00eame page et ferme les copies suppl\u00e9mentaires avant le rangement."
   },
   "split_large_groups_label": {
-    "message": "Diviser les groupes \u00e9normes"
+    "message": "Diviser les grands groupes au rangement"
   },
   "split_large_groups_help": {
-    "message": "Divise automatiquement les groupes trop grands en groupes plus petits."
+    "message": "La zone de glisser-d\u00e9poser affiche toujours ta configuration comme un seul groupe. V\u00e9rifier avant et Ranger les onglets diviseront les groupes au-dessus de la limite en plusieurs groupes Chrome."
   },
   "large_group_size_label": {
     "message": "Limiter chaque groupe \u00e0"
   },
   "large_group_size_help": {
-    "message": "Nombre maximal d\u2019onglets dans un groupe lorsque la division est activ\u00e9e."
+    "message": "Nombre maximal d\u2019onglets dans un groupe Chrome lorsque la division est activ\u00e9e."
   },
   "collapse_groups_label": {
     "message": "Replier les groupes \u00e0 la fin"
@@ -231,6 +231,20 @@
     "placeholders": {
       "count": {
         "content": "$1"
+      }
+    }
+  },
+  "auto_groups_split_status": {
+    "message": "$COUNT$ groupes cr\u00e9\u00e9s automatiquement. $LARGE$ grands groupes de sites seront divis\u00e9s pendant la v\u00e9rification ou le rangement, avec au plus $LIMIT$ onglets chacun.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "large": {
+        "content": "$2"
+      },
+      "limit": {
+        "content": "$3"
       }
     }
   }
