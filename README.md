@@ -26,6 +26,10 @@ The preview image uses sample domains only.
 - Can fold groups after organizing.
 - Supports English, Traditional Chinese, Japanese, German, Italian, and French.
 
+## Search Terms
+
+TabNest is a Chrome tab group manager, Chrome tab groups organizer, and tab manager extension for people who want domain-based tab grouping, drag-and-drop tab groups, duplicate tab cleanup, and a simpler way to organize open Chrome tabs.
+
 ## Install From GitHub
 
 1. Download this repository as a ZIP.
