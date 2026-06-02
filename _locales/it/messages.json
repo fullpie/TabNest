@@ -66,7 +66,7 @@
     "message": "Gruppi da creare"
   },
   "custom_groups_help": {
-    "message": "Aggiungi un gruppo, dagli un nome e trascina dentro i siti."
+    "message": "Usa la creazione automatica per riordinare subito, oppure aggiungi gruppi personalizzati e trascina dentro i siti."
   },
   "add_group_button": {
     "message": "Aggiungi gruppo"
@@ -216,6 +216,20 @@
     "message": "Impossibile annullare l\u2019ultimo giro: $ERROR$",
     "placeholders": {
       "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "auto_groups_button": {
+    "message": "Crea gruppi automaticamente"
+  },
+  "auto_groups_button_help": {
+    "message": "Crea un gruppo per ogni sito trovato. Prima di organizzare puoi ancora rinominare i gruppi o spostare i siti."
+  },
+  "auto_groups_status": {
+    "message": "Creati automaticamente $COUNT$ gruppi. Puoi organizzare subito o modificarli prima.",
+    "placeholders": {
+      "count": {
         "content": "$1"
       }
     }

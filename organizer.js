@@ -42,6 +42,7 @@ const siteListNode = document.getElementById("site-list");
 const groupListNode = document.getElementById("group-list");
 const sourcePanelNode = document.getElementById("source-panel");
 const scan_button = document.getElementById("scan");
+const auto_groups_button = document.getElementById("auto-groups");
 const add_group_button = document.getElementById("add-group");
 const preview_button = document.getElementById("preview");
 const group_button = document.getElementById("group");
@@ -250,6 +251,19 @@ function createGroup() {
   nextGroupNumber += 1;
   clearPreview();
   renderAll();
+}
+
+function createAutoGroups() {
+  groups = scannedSites.map((site, index) => ({
+    id: `auto-${Date.now()}-${index}`,
+    title: site.title,
+    siteKeys: [site.key],
+    colorIndex: index
+  }));
+  nextGroupNumber = groups.length + 1;
+  clearPreview();
+  renderAll();
+  setStatus(t("auto_groups_status", String(groups.length)));
 }
 
 function removeSiteFromGroups(siteKey) {
@@ -550,6 +564,7 @@ async function undoLastRun() {
 
 function setBusy(isBusy) {
   scan_button.disabled = isBusy;
+  auto_groups_button.disabled = isBusy || scannedSites.length === 0;
   add_group_button.disabled = isBusy;
   preview_button.disabled = isBusy;
   group_button.disabled = isBusy;
@@ -561,6 +576,7 @@ function setBusy(isBusy) {
 }
 
 scan_button.addEventListener("click", scanDomains);
+auto_groups_button.addEventListener("click", createAutoGroups);
 add_group_button.addEventListener("click", createGroup);
 preview_button.addEventListener("click", preview);
 group_button.addEventListener("click", groupTabs);

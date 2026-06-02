@@ -66,7 +66,7 @@
     "message": "Groups You Want"
   },
   "custom_groups_help": {
-    "message": "Add a group, name it, then drag sites into it."
+    "message": "Use Auto Build Groups for quick cleanup, or add your own groups and drag sites into them."
   },
   "add_group_button": {
     "message": "Add Group"
@@ -216,6 +216,20 @@
     "message": "Could not undo the last run: $ERROR$",
     "placeholders": {
       "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "auto_groups_button": {
+    "message": "Auto Build Groups"
+  },
+  "auto_groups_button_help": {
+    "message": "Create one group for each scanned site. You can still rename groups or drag sites around before organizing."
+  },
+  "auto_groups_status": {
+    "message": "Built $COUNT$ groups automatically. You can organize now or adjust them first.",
+    "placeholders": {
+      "count": {
         "content": "$1"
       }
     }

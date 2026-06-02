@@ -66,7 +66,7 @@
     "message": "Gew\u00fcnschte Gruppen"
   },
   "custom_groups_help": {
-    "message": "Gruppe hinzuf\u00fcgen, benennen und Websites hineinziehen."
+    "message": "Nutze die automatische Erstellung zum schnellen Aufr\u00e4umen, oder f\u00fcge eigene Gruppen hinzu und ziehe Websites hinein."
   },
   "add_group_button": {
     "message": "Gruppe hinzuf\u00fcgen"
@@ -216,6 +216,20 @@
     "message": "Letzter Lauf konnte nicht r\u00fcckg\u00e4ngig gemacht werden: $ERROR$",
     "placeholders": {
       "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "auto_groups_button": {
+    "message": "Gruppen automatisch erstellen"
+  },
+  "auto_groups_button_help": {
+    "message": "Erstellt eine Gruppe pro gefundener Website. Du kannst Gruppen vor dem Sortieren trotzdem umbenennen oder Websites verschieben."
+  },
+  "auto_groups_status": {
+    "message": "$COUNT$ Gruppen automatisch erstellt. Du kannst jetzt sortieren oder sie zuerst anpassen.",
+    "placeholders": {
+      "count": {
         "content": "$1"
       }
     }

@@ -66,7 +66,7 @@
     "message": "\u60f3\u5efa\u7acb\u7684\u7fa4\u7d44"
   },
   "custom_groups_help": {
-    "message": "\u65b0\u589e\u7fa4\u7d44\u3001\u547d\u540d\uff0c\u7136\u5f8c\u628a\u7db2\u7ad9\u62d6\u9032\u53bb\u3002"
+    "message": "\u60f3\u5feb\u901f\u6574\u7406\u53ef\u81ea\u52d5\u5efa\u7acb\u7fa4\u7d44\uff1b\u60f3\u5ba2\u88fd\u5316\u53ef\u65b0\u589e\u7fa4\u7d44\u518d\u62d6\u7db2\u7ad9\u3002"
   },
   "add_group_button": {
     "message": "\u65b0\u589e\u7fa4\u7d44"
@@ -216,6 +216,20 @@
     "message": "\u7121\u6cd5\u5fa9\u539f\u4e0a\u6b21\u6574\u7406\uff1a$ERROR$",
     "placeholders": {
       "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "auto_groups_button": {
+    "message": "\u81ea\u52d5\u5efa\u7acb\u7fa4\u7d44"
+  },
+  "auto_groups_button_help": {
+    "message": "\u628a\u6bcf\u500b\u6383\u63cf\u5230\u7684\u7db2\u7ad9\u5404\u81ea\u653e\u9032\u4e00\u500b\u7fa4\u7d44\u3002\u6574\u7406\u524d\u4ecd\u53ef\u6539\u540d\u6216\u62d6\u66f3\u8abf\u6574\u3002"
+  },
+  "auto_groups_status": {
+    "message": "\u5df2\u81ea\u52d5\u5efa\u7acb $COUNT$ \u500b\u7fa4\u7d44\u3002\u53ef\u4ee5\u76f4\u63a5\u6574\u7406\uff0c\u4e5f\u53ef\u4ee5\u5148\u8abf\u6574\u3002",
+    "placeholders": {
+      "count": {
         "content": "$1"
       }
     }

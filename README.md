@@ -19,6 +19,7 @@ The preview image uses sample domains only.
 ## Features
 
 - Finds busy sites automatically when you open the organizer.
+- Can automatically build one group per site for a quick cleanup.
 - Lets you create your own group names.
 - Lets you drag sites into the groups you want.
 - Can close exact duplicate pages.
@@ -44,11 +45,10 @@ TabNest is a Chrome tab group manager, Chrome tab groups organizer, and tab mana
 
 1. Open the organizer.
 2. Click **Find Sites** if you want to refresh the scan.
-3. Click **Add Group**.
-4. Rename the group.
-5. Drag sites from **Sites Found** into that group.
-6. Click **Preview Changes**.
-7. Click **Organize My Tabs**.
+3. For the fastest flow, click **Auto Build Groups**.
+4. For a custom flow, click **Add Group**, rename it, then drag sites from **Sites Found** into that group.
+5. Click **Preview Changes**.
+6. Click **Organize My Tabs**.
 
 ## Development
 
@@ -75,6 +75,7 @@ TabNest 可以幫你整理塞滿分頁的 Chrome 視窗。
 ## 功能
 
 - 打開整理器時自動找出分頁數較多的網站。
+- 可一鍵自動替每個網站建立群組，快速整理。
 - 可自己建立群組名稱。
 - 可把網站拖進你想要的群組。
 - 可關掉完全相同的重複頁面。
@@ -96,11 +97,10 @@ TabNest 可以幫你整理塞滿分頁的 Chrome 視窗。
 
 1. 打開整理器。
 2. 如果要重新整理掃描結果，按「開始掃描」。
-3. 按「新增群組」。
-4. 替群組命名。
-5. 把「掃描到的網站」拖進群組。
-6. 按「先看結果」。
-7. 按「開始整理」。
+3. 如果想最快整理，按「自動建立群組」。
+4. 如果想客製化，按「新增群組」、替群組命名，再把「掃描到的網站」拖進群組。
+5. 按「先看結果」。
+6. 按「開始整理」。
 
 ## 開發
 

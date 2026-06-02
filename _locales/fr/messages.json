@@ -66,7 +66,7 @@
     "message": "Groupes \u00e0 cr\u00e9er"
   },
   "custom_groups_help": {
-    "message": "Ajoute un groupe, nomme-le, puis glisse des sites dedans."
+    "message": "Utilise la cr\u00e9ation automatique pour ranger vite, ou ajoute tes propres groupes et glisse les sites dedans."
   },
   "add_group_button": {
     "message": "Ajouter un groupe"
@@ -216,6 +216,20 @@
     "message": "Impossible d\u2019annuler le dernier rangement: $ERROR$",
     "placeholders": {
       "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "auto_groups_button": {
+    "message": "Cr\u00e9er les groupes automatiquement"
+  },
+  "auto_groups_button_help": {
+    "message": "Cr\u00e9e un groupe pour chaque site trouv\u00e9. Tu peux encore renommer les groupes ou d\u00e9placer des sites avant de ranger."
+  },
+  "auto_groups_status": {
+    "message": "$COUNT$ groupes cr\u00e9\u00e9s automatiquement. Tu peux ranger tout de suite ou les ajuster avant.",
+    "placeholders": {
+      "count": {
         "content": "$1"
       }
     }

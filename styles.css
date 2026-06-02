@@ -93,6 +93,13 @@ section[aria-live] {
   margin-bottom: 12px;
 }
 
+.group-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
 label {
   display: inline-flex;
   gap: 8px;
@@ -275,5 +282,14 @@ tr:last-child td {
   .app-header > button,
   .groups-panel {
     margin-top: 12px;
+  }
+
+  .section-head {
+    display: block;
+  }
+
+  .group-actions {
+    justify-content: flex-start;
+    margin-top: 10px;
   }
 }
